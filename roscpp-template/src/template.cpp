@@ -4,7 +4,9 @@
 
 namespace ns_template {
 
-void TemplateHandle::run() {
+void Template::run() {
+  //  Here to start
+  
 }
 
 }
