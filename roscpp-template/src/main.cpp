@@ -26,8 +26,8 @@ int main(int argc, char **argv)
   return 0;
 }
 
-TemplateHandle::TemplateHandle(ros::NodeHandle &nodeHandle){
-  loadParameters();
+TemplateHandle::TemplateHandle(ros::NodeHandle &nodeHandle): nodeHandle(nodeHandle){
+  loadParameters(); 
   subscribeToTopics();
   publishToTopics();
   };

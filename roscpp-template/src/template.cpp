@@ -5,7 +5,6 @@
 namespace ns_template {
 
 void TemplateHandle::run() {
-  sendMsg();
 }
 
 }
